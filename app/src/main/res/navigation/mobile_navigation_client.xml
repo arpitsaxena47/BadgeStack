@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_client"
+    app:startDestination="@+id/navigation_codeScanner">
+
+    <fragment
+        android:id="@+id/navigation_codeScanner"
+        android:name="com.arpit.badgestack.ui.CodeScanner.CodeScannerFragment"
+        android:label="@string/title_codeScanner"
+        tools:layout="@layout/activity_code_scanner"
+        />
+
+    <fragment
+        android:id="@+id/navigation_industries"
+        android:name="com.arpit.badgestack.ui.AssociatedIndustries.IndustriesFragment"
+        android:label="@string/title_industries"
+        tools:layout="@layout/activity_industries_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_statistics_client"
+        android:name="com.arpit.badgestack.ui.ClientStatistics.ClientStatistics"
+        android:label="@string/title_statistics"
+        tools:layout="@layout/activity_client_statistics" />
+</navigation>

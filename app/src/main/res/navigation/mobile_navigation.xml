@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_showcase">
+
+    <fragment
+        android:id="@+id/navigation_showcase"
+        android:name="com.arpit.badgestack.ui.showcase.showcaseFragment"
+        android:label="@string/title_showcase"
+        tools:layout="@layout/activity_showcase" />
+
+    <fragment
+        android:id="@+id/navigation_timeline"
+        android:name="com.arpit.badgestack.ui.timeline.timelineFragment"
+        android:label="@string/title_timeline"
+        tools:layout="@layout/activity_timeline" />
+
+    <fragment
+        android:id="@+id/navigation_statistics"
+        android:name="com.arpit.badgestack.ui.statistics.statisticsFragment"
+        android:label="@string/title_statistics"
+        tools:layout="@layout/activity_statistics" />
+</navigation>

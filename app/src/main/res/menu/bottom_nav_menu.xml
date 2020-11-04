@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_showcase"
+        android:icon="@drawable/ic_baseline_local_movies_24"
+        android:title="@string/title_showcase"
+        android:iconTint="#000000"/>
+
+    <item
+        android:id="@+id/navigation_timeline"
+        android:icon="@drawable/ic_baseline_update_24"
+        android:title="@string/title_timeline"
+        android:iconTint="#000000"/>
+
+    <item
+        android:id="@+id/navigation_statistics"
+        android:icon="@drawable/ic_baseline_signal_cellular_alt_24"
+        android:title="@string/title_statistics"
+        android:iconTint="#000000"/>
+
+</menu>
